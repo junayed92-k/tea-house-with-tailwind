@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tea hause</title>
+    <!-- google font cdn  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -18,12 +19,15 @@
           colors: {
             clifford: '#da373d',
           }
-        }
-      }
+          fontFamily: {
+              manrope: ["Manrope", 'sans-serif'],
+          },
+        },
+      },
     }
   </script>
 </head>
-<body>
+<body class="font-manrope">
     <!-- main content -->
      <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
       <!-- header section -->
@@ -34,7 +38,7 @@
             tea time at The <br>
             Tea House</h1>
             <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></i></button>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 hover:bg-white hover:text-black rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></i></button>
         </div>
         <!-- image content -->
          <div class="relative">
@@ -128,8 +132,10 @@
               </div>
           </div>
          </section>
+         
 
          <!-- reviews section  -->
+          
           <section class="mb-24 ">
             <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16">
 
@@ -141,9 +147,15 @@
                   <button class="bg-white font-bold text-orange-700 px-3 py-2 rounded-lg">Show All</button>
                  </div>
                </div>
+
+               
                
 
                <!-- reviews cards section  -->
+
+               
+
+
                 <div class="relative py-24">
 
                                     <!-- middle card  -->
@@ -205,7 +217,7 @@
                 <div class="flex items-center gap-2">
                   <h4>Ready to get started?</h4>
                   <button uds.</p>
-                    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold">Get Started</button>
+                    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 hover:bg-white hover:text-black rounded-lg text-white font-bold">Get Started</button>
                 </div>
                </div>
                <!-- links -->
@@ -256,13 +268,7 @@
                       <a class="hover:text-orange-600" href="#">Home</a>
                     </li>
                     <li>
-                      <a class="hover:text-orange-600" href="#">About</a>
-                    </li>
-                    <li>
                       <a class="hover:text-orange-600" href="#">Insurance</a>
-                    </li>
-                    <li>
-                      <a class="hover:text-orange-600" href="#">Privacy Policy</a>
                     </li>
                   </ul>
                  </div>
@@ -291,5 +297,8 @@
             </div>
           </footer>
 
+
+          
+
 </body>
-</html>
+</html> 
